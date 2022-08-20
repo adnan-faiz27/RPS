@@ -60,4 +60,23 @@ body h1{
     position: absolute;
     bottom: 1rem;
 }
-
+@media only screen and (max-width: 450px) {
+    .choices {
+        width: 13rem;
+        height: 10.5rem;
+        margin: 22px;
+    }
+    
+    body h2{
+    text-align: center;
+    font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .choices {
+        width: 11rem;
+        height: 10rem;
+        margin: 22px;
+        font-size: 1.2rem;
+    }
+}
